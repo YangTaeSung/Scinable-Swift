@@ -1,0 +1,6 @@
+framework module Pods_TestForRm {
+  umbrella header "Pods-TestForRm-umbrella.h"
+
+  export *
+  module * { export * }
+}

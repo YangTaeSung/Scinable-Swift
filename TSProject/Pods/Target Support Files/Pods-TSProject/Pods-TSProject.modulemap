@@ -1,0 +1,6 @@
+framework module Pods_TSProject {
+  umbrella header "Pods-TSProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
