@@ -12,7 +12,9 @@ import GoogleSignIn
 
 class ViewController: UIViewController {
     @IBAction func signIn(_ sender: Any) {
+        
          GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+        
     }
     
     override func viewDidLoad() {

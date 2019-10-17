@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2AF52CA767046E268665C212 /* Pods_TSProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980ADB0DE5393E3E753611C9 /* Pods_TSProject.framework */; };
+		650691A32358506200BFC185 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650691A22358506200BFC185 /* DesignableView.swift */; };
 		650CB535233B108C002A36D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650CB534233B108C002A36D9 /* AppDelegate.swift */; };
 		650CB537233B108C002A36D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650CB536233B108C002A36D9 /* ViewController.swift */; };
 		650CB53A233B108C002A36D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650CB538233B108C002A36D9 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		1929395C23F2500FE181AAA8 /* Pods-TSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSProject.debug.xcconfig"; path = "Target Support Files/Pods-TSProject/Pods-TSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		4A6D135B25A334C16A2EDF60 /* Pods-TSProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-TSProjectUITests/Pods-TSProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		650691A22358506200BFC185 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		650CB531233B108C002A36D9 /* TSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		650CB534233B108C002A36D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		650CB536233B108C002A36D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				650CB53D233B108E002A36D9 /* LaunchScreen.storyboard */,
 				65716738233B3C7200F255B9 /* GoogleService-Info.plist */,
 				650CB540233B108E002A36D9 /* Info.plist */,
+				650691A22358506200BFC185 /* DesignableView.swift */,
 			);
 			path = TSProject;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			files = (
 				650CB537233B108C002A36D9 /* ViewController.swift in Sources */,
 				650CB535233B108C002A36D9 /* AppDelegate.swift in Sources */,
+				650691A32358506200BFC185 /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

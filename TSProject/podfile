@@ -9,7 +9,8 @@ target 'TSProject' do
   pod 'Firebase/Analytics'
   pod 'GoogleSignIn'
   pod 'Firebase/Auth' 
-
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
 
  target 'TSProjectTests' do
     inherit! :search_paths

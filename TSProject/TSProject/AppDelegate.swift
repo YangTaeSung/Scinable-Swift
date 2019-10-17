@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         let givenName = user.profile.givenName
         let familyName = user.profile.familyName
         let email = user.profile.email
+        print(fullName)
         // ...
     }
     
@@ -61,6 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
               withError error: Error!) {
         // Perform any operations when the user disconnects from app here.
         // ...
+        print("user has discconected")
         
     
     }
