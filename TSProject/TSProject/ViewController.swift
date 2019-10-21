@@ -11,23 +11,11 @@ import Firebase
 import GoogleSignIn
 
 class ViewController: UIViewController {
-    @IBAction func signIn(_ sender: Any) {
-        
-         GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-        
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        GIDSignIn.sharedInstance()?.presentingViewController = self
-       
-        let gSignIn = GIDSignInButton(frame: CGRect(x: 0, y: 0, width: 230, height: 48))
-        gSignIn.center = view.center
-        view.addSubview(gSignIn)
-        
+        //self.tableView.backgroundColor = UIColor.red
     }
-
-
 }
 
