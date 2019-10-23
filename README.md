@@ -1,4 +1,4 @@
 # Scinable-Swift
 
 ## Outline
-Swift practice working in Scinable overseas internship
+Swift Labs on Scinable International Internships
