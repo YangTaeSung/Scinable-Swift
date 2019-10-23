@@ -1,4 +1,4 @@
 # Scinable-Swift
 
 ## Outline
-Swift Labs on Scinable International Internships
+Swift programming exercises I worked on in Shinable
