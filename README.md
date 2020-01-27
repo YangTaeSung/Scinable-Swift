@@ -1,14 +1,7 @@
-# Scinable-Swift
-
-## Outline
-Swift programming exercises I worked on in Scinable international internship program
-***
-
-
-Research-IOS
+TestForRM
 ============
 ### 개요
- Xcode를 통한 IOS FCMPush 구현과 모듈화 작업
+ Mac 개발자 등록, Xcode-Firebase 연동, IOS FCMPush 구현과 모듈화 작업
 ***
 ### 목차
 #### 1. Xcode에 프로젝트 생성
